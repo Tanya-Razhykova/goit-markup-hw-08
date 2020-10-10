@@ -1,0 +1,50 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.logo-clients {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        border: 1px solid #2196F3;
+        fill: $color-blue;
+    }
+}
+
+.clients-box {
+    flex-basis:calc((100% - 30px * 5) / 6);
+}
+
+.clients-box:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list-clients {
+    margin: 0;
+    display: flex;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

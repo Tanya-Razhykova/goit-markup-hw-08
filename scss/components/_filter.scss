@@ -1,0 +1,39 @@
+.filter {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.list.filter {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-filter > a{
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    height: 38px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    background-color: $color-grey-buttom;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-filter:not(:last-child) {
+    margin-right: 8px;
+}
+
+.portfolio-filter > a:hover,
+.portfolio-filter > a:focus,
+.portfolio-filter > a:active {
+    background-color: $color-blue;
+    color: $color-white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

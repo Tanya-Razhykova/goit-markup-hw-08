@@ -1,0 +1,86 @@
+.post {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $color-white;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.mail-tel.footer {
+    font-weight: normal;
+    display: flex;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $color-light-grey;
+    flex-wrap: wrap;
+    width: 231px;
+}
+
+.mail-tel {
+    font-weight: normal;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $color-light-grey;
+}
+
+.link {
+    text-decoration: none;
+    color: $color-black;
+    font-style: normal;
+}
+
+.footer-page {
+    display: flex;
+}
+
+.link.footer {
+    color: $color-light-grey;
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+
+.footer-address {
+    margin-right: 70px;
+    padding-top: 60px;
+}
+
+.social-nav-footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0;
+}
+
+.page-footer {
+    background-color: $color-dark-grey;
+    height: 252px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social-footer {
+    display: block;
+    padding-top: 72px;
+    padding-bottom: 100px;
+    margin-right: 93px;
+}
+
+.social-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-white;
+    margin-bottom: 20px;
+    margin-top: 0;
+}

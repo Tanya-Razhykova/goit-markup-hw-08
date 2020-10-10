@@ -1,0 +1,30 @@
+.logo {
+    font-family: 'Raleway', sans-serif;
+    margin-right: 93px;
+}
+
+.logo.link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: $color-blue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    color: $color-white
+}
+
+.logo.link.footer {
+    display: block;
+    margin-right: 0px;
+}
