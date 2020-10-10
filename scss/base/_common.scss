@@ -8,8 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -44,11 +42,23 @@ a {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    
+    @include for-size(mobile) {
+        width: 480px;
+    }
+    @include for-size(tablet) {
+        width: 768px;
+    }
+    @include for-size(desktop) {
+        width: 1200px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 .flexbox {
