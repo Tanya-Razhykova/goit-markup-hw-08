@@ -1,8 +1,8 @@
 .form-email {
     display: block;
-    padding-top: 72px;
-    padding-bottom: 94px;
-    width: 570px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    // width: 570px;
 }
 
 .title-form-email {
@@ -27,12 +27,13 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding-left: 16px;
-    margin-right: 12px;
+    // margin-right: 12px;
+    margin-bottom: 20px;
     color: $color-light-grey;
 }
 
 .email-form {
-    display: flex;
+    // display: flex;
 }
 
 .form-title {

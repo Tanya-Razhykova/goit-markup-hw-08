@@ -1,6 +1,6 @@
 .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .clients-title {
@@ -10,14 +10,14 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
 }
 
 .logo-clients {
-    width: 170px;
+    // width: 170px;
     height: 90px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -27,6 +27,7 @@
     fill: #AFB1B8;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 0;
     &:hover {
         border: 1px solid #2196F3;
         fill: $color-blue;
@@ -34,17 +35,22 @@
 }
 
 .clients-box {
-    flex-basis:calc((100% - 30px * 5) / 6);
+    margin: 15px;
+    flex-basis: calc((100% - 2 * 30px) / 2);
+    // flex-basis:calc((100% - 30px * 5) / 6);
 }
 
-.clients-box:not(:last-child) {
-    margin-right: 30px;
-}
+// .clients-box:not(:last-child) {
+//     margin-right: 30px;
+// }
 
 .list-clients {
     margin: 0;
     display: flex;
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
+    flex-wrap: wrap;
+    margin: -15px;
+    // width: 1200px;
+    // padding-right: 15px;
+    // padding-left: 15px;
+    padding: 0;
 }

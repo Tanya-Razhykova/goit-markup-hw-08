@@ -1,5 +1,10 @@
 .list.mail-tel {
     margin-left: auto;
+    display: none;
+}
+
+.list-nav {
+    display: none;
 }
 
 .list .item:not(:last-child) {

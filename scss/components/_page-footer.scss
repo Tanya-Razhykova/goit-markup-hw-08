@@ -10,14 +10,15 @@
 
 .mail-tel.footer {
     font-weight: normal;
-    display: flex;
-    margin-top: 9px;
+    // display: flex;
+    // margin-top: 9px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: $color-light-grey;
-    flex-wrap: wrap;
-    width: 231px;
+    // flex-wrap: wrap;
+    // width: 231px;
+    text-align: center;
 }
 
 .mail-tel {
@@ -36,7 +37,8 @@
 }
 
 .footer-page {
-    display: flex;
+    text-align: center;
+    // display: flex;
 }
 
 .link.footer {
@@ -47,7 +49,7 @@
 }
 
 .footer-address {
-    margin-right: 70px;
+    // margin-right: 70px;
     padding-top: 60px;
 }
 
@@ -60,7 +62,7 @@
 
 .page-footer {
     background-color: $color-dark-grey;
-    height: 252px;
+    // height: 252px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -68,9 +70,9 @@
 
 .social-footer {
     display: block;
-    padding-top: 72px;
-    padding-bottom: 100px;
-    margin-right: 93px;
+    padding-top: 60px;
+    padding-bottom: 00px;
+    // margin-right: 93px;
 }
 
 .social-title {
