@@ -748,6 +748,15 @@ img {
 
 .footer-page {
   text-align: center;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .footer-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .link.footer {
@@ -950,6 +959,25 @@ img {
   padding-left: 16px;
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 768px) {
+  .form-field-email {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-field-email {
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .email-form {
+    display: flex;
+  }
 }
 
 .form-title {

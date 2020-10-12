@@ -38,6 +38,13 @@
 
 .footer-page {
     text-align: center;
+    display: block;
+
+    @include for-size(tablet) {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around;
+    }
     // display: flex;
 }
 
